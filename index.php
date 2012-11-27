@@ -63,7 +63,7 @@ function _create($db, $collection){
 
 function _read($db, $collection, $id){
 
-  $data = mongoRead(
+  $data = mongoRetrieve(
     MONGO_HOST,
     $db,
     $collection,
